@@ -54,6 +54,10 @@
                                                 <state key="normal" title="Sign Up">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="signUpBtnTappedWithSender:" destination="hHV-sE-eMZ" eventType="touchDown" id="prX-cd-HVI"/>
+                                                    <segue destination="ibE-xh-jxY" kind="show" identifier="Register" id="Ezy-kz-emg"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -97,6 +101,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Icz-UL-3Hc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-60" y="102.99850074962519"/>
+        </scene>
+        <!--RegisterViewController-->
+        <scene sceneID="T1M-Z1-dT6">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Register" referencedIdentifier="RegisterViewController" id="ibE-xh-jxY" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="gcJ-le-clX"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TLe-H9-RkM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-44" y="522"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="qH2-7X-l4f">

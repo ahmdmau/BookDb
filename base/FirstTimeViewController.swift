@@ -34,6 +34,10 @@ class FirstTimeViewController: BaseViewController, ControllerType {
         performSegue(withIdentifier: "Login", sender: self)
     }
     
+    @IBAction func signUpBtnTapped(sender: UIButton){
+        performSegue(withIdentifier: "Register", sender: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.showNavigationBar()
@@ -56,6 +60,9 @@ class FirstTimeViewController: BaseViewController, ControllerType {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "Login" {
             let vc = segue.destination as! LoginViewController
+            vc.modalPresentationStyle = .fullScreen
+        } else if segue.identifier == "Register"{
+            let vc = segue.destination as! RegisterViewController
             vc.modalPresentationStyle = .fullScreen
         }
     }

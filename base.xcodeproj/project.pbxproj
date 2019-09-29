@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		52723CA4233F062300EF0DCF /* FirstTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52723CA3233F062300EF0DCF /* FirstTimeViewController.swift */; };
+		52723CA7233F65E300EF0DCF /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52723CA6233F65E300EF0DCF /* Register.storyboard */; };
+		52723CA9233F677B00EF0DCF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52723CA8233F677B00EF0DCF /* RegisterViewController.swift */; };
 		52740A65233E5B8900CB7CEF /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52740A64233E5B8900CB7CEF /* Onboarding.storyboard */; };
 		52740A67233E5EFF00CB7CEF /* OnboardingContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52740A66233E5EFF00CB7CEF /* OnboardingContentViewController.swift */; };
 		52740A69233E5F7600CB7CEF /* OnboardingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52740A68233E5F7600CB7CEF /* OnboardingPageViewController.swift */; };
@@ -32,6 +34,8 @@
 
 /* Begin PBXFileReference section */
 		52723CA3233F062300EF0DCF /* FirstTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTimeViewController.swift; sourceTree = "<group>"; };
+		52723CA6233F65E300EF0DCF /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
+		52723CA8233F677B00EF0DCF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		52740A64233E5B8900CB7CEF /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
 		52740A66233E5EFF00CB7CEF /* OnboardingContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContentViewController.swift; sourceTree = "<group>"; };
 		52740A68233E5F7600CB7CEF /* OnboardingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +85,8 @@
 		52723CA5233F603E00EF0DCF /* Register */ = {
 			isa = PBXGroup;
 			children = (
+				52723CA6233F65E300EF0DCF /* Register.storyboard */,
+				52723CA8233F677B00EF0DCF /* RegisterViewController.swift */,
 			);
 			name = Register;
 			sourceTree = "<group>";
@@ -245,6 +251,7 @@
 				52D7ACA422F2061000A6659C /* Inter-Light-BETA.ttf in Resources */,
 				52D7ACA122F2061000A6659C /* Inter-Black.ttf in Resources */,
 				52D7ACA622F2061000A6659C /* Inter-Medium.ttf in Resources */,
+				52723CA7233F65E300EF0DCF /* Register.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52D7AC9122F0BBEE00A6659C /* LoginViewController.swift in Sources */,
+				52723CA9233F677B00EF0DCF /* RegisterViewController.swift in Sources */,
 				52D7AC7822F0A7A300A6659C /* AppDelegate.swift in Sources */,
 				52723CA4233F062300EF0DCF /* FirstTimeViewController.swift in Sources */,
 				52740A67233E5EFF00CB7CEF /* OnboardingContentViewController.swift in Sources */,
